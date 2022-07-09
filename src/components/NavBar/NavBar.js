@@ -7,13 +7,10 @@ class NavBar extends Component {
         return (
             <ul className="NavList">
                 <li>
-                    <Link exact to="/">HOME</Link>
+                    <Link exact to="/">Log in</Link>
                 </li>
                 <li>
-                    <Link to="/about">ABOUT</Link>
-                </li>
-                <li>
-                    <Link to="/contacts">CONTACTS</Link>
+                    <Link to="/singup">Sing up</Link>
                 </li>
             </ul>
         );
