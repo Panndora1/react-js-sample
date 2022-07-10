@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom'
 
-import { Home, Login, Signup, Contacts, NotFound } from '../';
+import { Login, Signup, Contacts, NotFound } from '../';
 
 class Container extends Component {
   render() {
